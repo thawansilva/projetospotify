@@ -151,12 +151,14 @@ footer .footer-group h5 {
 footer .footer-group .empresa {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-top: 20px;
     flex-grow: 1;
 }
 footer .footer-group .empresa a {
     text-decoration: none;
     color: white;
+    padding: 20px 0px 0px 0px;
 }
 footer .footer-group .empresa a:hover {
     color: #1ED760;
@@ -164,12 +166,13 @@ footer .footer-group .empresa a:hover {
 footer .footer-group .comunidade {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     flex-grow: 1;
+    margin-top: 20px;
 }
 footer .footer-group .comunidade a{
     text-decoration: none;
     color: white;
+    padding: 20px 0px 0px 0px;
 }
 footer .footer-group .comunidade a:hover {
     color: #1ED760;
@@ -177,12 +180,13 @@ footer .footer-group .comunidade a:hover {
 footer .footer-group .link-util {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     flex-grow: 1;
+    margin-top: 20px;
 }
 footer .footer-group .link-util a {
     text-decoration: none;
     color: white;
+    padding: 20px 0px 0px 0px;
 }
 footer .footer-group .link-util a:hover {
     color: #1ED760;

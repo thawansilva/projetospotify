@@ -1,2 +1,2 @@
 # projetospotify
-Esse projeto é um clone do site do Spotify, onde eu tento aplicar meus conhecimentos de HTML e CSS.
+Esse projeto é uma réplica do site do Spotify, onde eu tento aplicar meus conhecimentos de HTML e CSS.

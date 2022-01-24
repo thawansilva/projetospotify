@@ -121,14 +121,11 @@ ul p{
     display: flex;
     justify-content: flex-end;
     flex-grow: 2;
+    margin: 1em 0em;
 } 
 .redes-sociais i {
-    background: #222326;
-    padding: 20px;
-    height: 4rem;
-    border-radius: 100px;
     margin: 0px 10px;
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: white;
 }
 .redes-sociais i:hover {
@@ -140,7 +137,7 @@ ul p{
     align-items: flex-end;
     font-size: 0.8rem;
     margin-bottom: 2rem;
-    padding-top: 5.5rem;
+    padding-top: 3.5rem;
 }
 .final a {
     color: #919496;
@@ -197,10 +194,18 @@ a:hover {
         align-items: flex-start;
         justify-content: space-between;
     }
+    .redes-sociais {
+        margin-left: 2em;
+    }
 }
 @media (max-width: 670px) {
-    .footer-group .col {
+    .footer-group .col, .final {
         flex-direction: column;
         justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .redes-sociais {
+        margin-left: 2em ;
     }
 }
